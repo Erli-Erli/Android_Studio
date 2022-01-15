@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -20,6 +21,7 @@
             android:layout_width="wrap_content">
         </LinearLayout>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -33,7 +35,6 @@
             android:text="@string/sb"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"/>
-
 
         <EditText
             android:drawableStart="@drawable/user"
@@ -85,7 +86,7 @@
                 android:layout_width="80dp"/>
 
         <TextView
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="31dp"
             android:layout_marginTop="13dp"
             android:textColor="@color/tombil"
             android:text="Sign in with"
@@ -116,6 +117,7 @@
                 android:layout_height="25dp"/>
         </LinearLayout>
     </LinearLayout>
+
 
 
 </LinearLayout>
