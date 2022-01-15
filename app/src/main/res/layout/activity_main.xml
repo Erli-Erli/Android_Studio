@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Coklat"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="320dp">
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/icon"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/body_kolom"
+        android:orientation="vertical">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/sb"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+
+        <EditText
+            android:drawableStart="@drawable/user"
+            android:textColorHint="@color/abu"
+            android:textStyle="bold"
+            android:hint="Password"
+            android:drawablePadding="15dp"
+            android:paddingStart="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/kolomtextedit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"/>
+
+        <EditText
+            android:drawableStart="@drawable/kunci"
+            android:textColorHint="@color/abu"
+            android:textStyle="bold"
+            android:hint="Password"
+            android:password="true"
+            android:drawablePadding="15dp"
+            android:paddingStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/kolomtextedit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"/>
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="13dp"
+            android:textColor="@color/tombil"
+            android:text="Don't have an account ?"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+            <Button
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:text="Login"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tombol"
+                android:layout_height="50dp"
+                android:layout_width="80dp"/>
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="13dp"
+            android:textColor="@color/tombil"
+            android:text="Sign in with"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/facebook"
+                android:layout_width="25dp"
+                android:layout_height="25dp"/>
+            <ImageView
+                android:adjustViewBounds="true"
+                android:src="@drawable/twitter"
+                android:layout_width="25dp"
+                android:layout_height="25dp"/>
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/google"
+                android:layout_width="25dp"
+                android:layout_height="25dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
